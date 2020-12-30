@@ -16,21 +16,30 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .section_content2 h2 {margin-top: 50px;}
 
 /*s0*/
-.section_home {background: url("../img/back6.jpg") no-repeat; _background-size:cover; width: calc(100% - 140px); height: calc(100% - 140px); margin: 70px; position: relative; transition: all 1s;}
+.section_home {background: url("../img/bg8.png") no-repeat; 
+    background-size:70% ; 
+    background-position: 60% 140%;
+    width: calc(100% - 140px); height: calc(100% - 140px); margin: 70px; position: relative; transition: all 1s;}
+
 /*
 .section_home h1 {font-family: 'Sue Ellen Francisco', cursive; color: #fff; font-size: 130px; position: absolute; bottom: 80px; right: 12%; letter-spacing: 15px; transition: all 1s;}
 .section_home h2 {font-family: 'Sue Ellen Francisco', cursive; color: #fff; font-size: 50px; position: absolute; bottom: 280px; right: 13%; letter-spacing: 10px; transition: all 1s;}
 */
-.section_home .home_txt {width:80%; margin:0 auto;transform:translate(5%,220%);}
-.section_home h1 {color: #242424; font-size: 63px; letter-spacing: 5px; text-align: center; line-height: 105px; width:100%;}
-.section_home h2 {color: #242424; font-size: 40px; letter-spacing: 5px;width:100%; text-align: center;}
-
-#home_right {position: absolute; right: -100px; top: 300px; transform: rotate(90deg); overflow: hidden;}
+.section_home .home_txt {width:80%; margin:0 auto;transform:translate(0,80%);}
+.section_home>.home_txt>h2 {color: #242424; font-size: 20px; letter-spacing: 5px;text-align: center;}
+.section_home>.home_txt> h1{color: #1307f7; text-align: center; text-align: center; font-size: 83px; line-height: 105px; font-weight: 800; font-family: 'Montserrat-ExtraBold';
+     -webkit-text-stroke: 2px #1307f7;  
+     -moz-text-stroke: 2px #1307f7;
+     -ms-text-stroke:2px #1307f7;
+     -o-text-stroke: 2px #1307f7;
+     text-stroke: 2px #1307f7;
+}
+#home_right {position: absolute; right: -100px; top: 100px; transform: rotate(90deg); overflow: hidden;}
 #home_right_txt {letter-spacing: 2px; display: inline-block; float: left; font-size: 15px;}
 #home_bottom_txt {position: absolute; left: 110px; bottom: -33px; overflow: hidden; font-size: 16px;}
 
 .home_line {position: absolute; border-bottom: 0;}
-.home_right_line {height: 200px; right: -35px; top: 390px;}
+.home_right_line {height: 200px; right: -35px; top: 190px;}
 .home_left_line {height: 300px; left: -25px; bottom: -45px;}
 .home_bottom_line {width: 130px; left: -45px; bottom: -25px;}
 
@@ -58,10 +67,19 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {text-align: center; bottom: 130px;}
+.fp-slidesNav ul li {margin: 0px 60px;}
+.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 120px; background: #1307f7; margin: -2px 0 0 -60px; border-radius: 0;}
+.fp-slidesNav ul li a span{border-radius: 0; height:12px; width: 120px; border: 0; background: #ddd; margin: -2px 0 0 -60px;}
+.fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
+#fp-nav ul {position: absolute; right: 50px;}
+
+/*
+.fp-slidesNav.fp-bottom {text-align: center; bottom: 130px;}
 #fp-nav ul li,.fp-slidesNav ul li {margin: 0px 60px;}
 #fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 120px; background: #1307f7; margin: -2px 0 0 -60px; border-radius: 0;}
 #fp-nav ul li a span,.fp-slidesNav ul li a span{border-radius: 0; height:12px; width: 120px; border: 0; background: #ddd; margin: -2px 0 0 -60px;}
 #fp-nav ul li:hover a span,.fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
+*/
 
 .fp-controlArrow.fp-prev {left: 8%; background: url(../img/left_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1; transition: all 1s;}
 .fp-controlArrow.fp-next {right: 8%; background: url(../img/right_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1; transition: all 1s;}
