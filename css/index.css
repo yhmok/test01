@@ -20,11 +20,6 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
     background-size:70% ; 
     background-position: 60% 140%;
     width: calc(100% - 140px); height: calc(100% - 140px); margin: 70px; position: relative; transition: all 1s;}
-
-/*
-.section_home h1 {font-family: 'Sue Ellen Francisco', cursive; color: #fff; font-size: 130px; position: absolute; bottom: 80px; right: 12%; letter-spacing: 15px; transition: all 1s;}
-.section_home h2 {font-family: 'Sue Ellen Francisco', cursive; color: #fff; font-size: 50px; position: absolute; bottom: 280px; right: 13%; letter-spacing: 10px; transition: all 1s;}
-*/
 .section_home .home_txt {width:80%; margin:0 auto;transform:translate(0,80%);}
 .section_home>.home_txt>h2 {color: #242424; font-size: 20px; letter-spacing: 5px;text-align: center;}
 .section_home>.home_txt> h1{color: #1307f7; text-align: center; text-align: center; font-size: 83px; line-height: 105px; font-weight: 800; font-family: 'Montserrat-ExtraBold';
@@ -73,14 +68,6 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
 #fp-nav ul {position: absolute; right: 50px;}
 
-/*
-.fp-slidesNav.fp-bottom {text-align: center; bottom: 130px;}
-#fp-nav ul li,.fp-slidesNav ul li {margin: 0px 60px;}
-#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 120px; background: #1307f7; margin: -2px 0 0 -60px; border-radius: 0;}
-#fp-nav ul li a span,.fp-slidesNav ul li a span{border-radius: 0; height:12px; width: 120px; border: 0; background: #ddd; margin: -2px 0 0 -60px;}
-#fp-nav ul li:hover a span,.fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
-*/
-
 .fp-controlArrow.fp-prev {left: 8%; background: url(../img/left_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1; transition: all 1s;}
 .fp-controlArrow.fp-next {right: 8%; background: url(../img/right_btn.png) no-repeat; width: 50px; height: 150px; z-index: 1; transition: all 1s;}
 
@@ -90,18 +77,31 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 #footer {position: absolute; left: 0; bottom: 0; background: #3d4740; width: 100%; height: 50px; line-height: 50px;}
 #footer_txt {width: 100%; text-align: center; color: #ccc; font-size: 14px;}
 
+
+
+/*1280 ~ 1599*/
 @media screen and (min-width:1280px) and (max-width:1599px) {
 #navTop_box {width: 90%;}
 .section_content {width: 90%;}
+    /*s0*/
+.section_home {
+    width: calc(100% - 80px); height: calc(100% - 80px); margin: 40px;
+    background-position: 60% 93%;
+}
+#home_right {right: -89px; top: 320px; transform: rotate(90deg);}
+.home_right_line {height: 200px; right: -24px; top: 45px;}
+    
 .home_middle_line1 {width: 35%;}
 .home_middle_line2 {width: 10%;}
-.fp-controlArrow.fp-prev {left: 4%; background-size: 90%;}
-.fp-controlArrow.fp-next {right: 4%; background-size: 90%;}
+.fp-controlArrow.fp-prev {left: 1%; background-size: 50%;}
+.fp-controlArrow.fp-next {right: 1%; background-size: 50%;}
 .slide .pf_img_container .pf_img_1 {width: 450px;}
 .slide .pf_img_container .pf_img_2 {width: 190px;}
 .slide .pf_img_container .pf_img_3 {width: 110px;}
 }
 
+
+/*768 ~ 1279*/
 @media screen and (min-width:768px) and (max-width:1279px) {
 #navTop {width: 100%; height: 60px;}
 #navTop_box {width: 90%; height: 60px;}
@@ -117,12 +117,14 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .section_content1 h2 {background: #B3D0BC; color: #fff; padding: 10px 0px; margin-top: 60px;}
 .section_content2 h2 {margin-top: 50px;}
 
-    
 /*s0*/
-.section_home {width: calc(100% - 80px); height: calc(100% - 80px); margin: 40px;}
+.section_home {
+    width: calc(100% - 80px); height: calc(100% - 80px); margin: 40px;
+    background-position: 60% 72%;
+}
 .section_home h1 {font-size: 130px; bottom: 50px; right: 5%; letter-spacing: 15px;}
 .section_home h2 {font-size: 50px; bottom: 250px; right: 6%; letter-spacing: 10px;}
-#home_right {right: -80px; top: 300px; transform: rotate(90deg);}
+#home_right {right: -75px; top: 100px; transform: rotate(90deg);}
 #home_right_txt {font-size: 13px;}
 #home_bottom_txt {left: 110px; bottom: -25px; font-size: 14px;}
 
@@ -147,15 +149,15 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {bottom: 8%;}
-.fp-controlArrow.fp-prev {left: 2%; background-size: 80%;}
-.fp-controlArrow.fp-next {right: 2%; background-size: 80%;}
+.fp-controlArrow.fp-prev {left: 1%; background-size: 40%;}
+.fp-controlArrow.fp-next {right: 0.3%; background-size: 40%;}
 .fp_name {display: none;}
 #footer {position: absolute; left: 0; bottom: 0; background: #3d4740; width: 100%; height: 40px; line-height: 40px;}
 #footer_txt {font-size: 13px;}
 }
 
 
-
+/*~767*/
 @media screen and (max-width:767px) {
 #navTop {width: 100%; height: 50px;}
 #navTop_box {width: 90%; height: 50px;}
@@ -170,12 +172,15 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .section_content h2 {position: relative; text-align: center; font-size: 18px; letter-spacing: 4px;}
 .section_content1 h2 {background: #B3D0BC; color: #fff; padding: 7px 0px; margin-top: 50px;}
 .section_content2 h2 {margin-top: 50px;}
-
     
 /*s0*/
-.section_home {width: calc(100% - 40px); height: calc(100% - 40px); margin: 20px;}
-.section_home h1 {font-size: 60px; bottom: 50px; right: 5%; letter-spacing: 5px;}
-.section_home h2 {font-size: 30px; bottom: 150px; right: 6%; letter-spacing: 10px;}
+.section_home {
+    width: 100%; height: 100%; margin: 20px;
+    background-position: 60% 72%;
+}
+.section_home .home_txt {position:relative; top: 100px;}
+.section_home h1 {font-size: 60px!important; bottom: 50px; right: 5%; letter-spacing: 5px;}
+.section_home h2 {font-size: 16px!important; bottom: 150px; right: 6%; letter-spacing: 5px;}
 #home_right {right: -58px; top: 200px; transform: rotate(90deg);}
 #home_right_txt {font-size: 10px;}
 #home_bottom_txt {left: 70px; bottom: -15px; font-size: 10px;}
@@ -187,7 +192,9 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .home_middle_line2 {display: none;}
 
 /*s3*/
+.slide h1 {font-size: 25px; margin-top: 0;}
 .slide h2 {padding-bottom: 40px;}
+.slide p {margin-bottom: 100px!important;}
 .section_content3 {width: 84%;}
 .slide .pf_img_container {display: none;}
 .slide .pf_txt_container {width: 100%; padding-left: 10px; padding-right: 10px; margin-top: -30px;}
@@ -199,17 +206,18 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .slide .pf_txt_container p span {display: none;}
 .pf_gosite {margin-top: 10px; margin-bottom: 0px;}
 .pf_gosite a {overflow: hidden; position: relative; display: inline-block; vertical-align: top; width: 100%; padding: 7px 0; font-size: 16px; border: 1px solid #aaa; transition: all 0.5s;}
+.slide ul .n, .slide ul .r{padding:10px 0!important;} 
 
     
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {text-align: center; bottom: 7%;}
-#fp-nav ul li,.fp-slidesNav ul li {margin: 0px 34px;}
-#fp-nav ul li a.active span,#fp-nav ul li:hover a.active span,.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 70px; margin: -2px 0 0 -40px;}
-#fp-nav ul li a span,.fp-slidesNav ul li a span {border-radius: 0; height: 12px; width: 70px; border: 0; margin: -2px 0 0 -40px;}
-#fp-nav ul li:hover a span,.fp-slidesNav ul li:hover a span {width: 70px; height: 12px; margin: -2px 0 0 -40px;}
+.fp-slidesNav ul li {margin: 0px 34px;}
+.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 70px; margin: -2px 0 0 -40px;}
+.fp-slidesNav ul li a span {border-radius: 0; height: 12px; width: 70px; border: 0; margin: -2px 0 0 -40px;}
+.fp-slidesNav ul li:hover a span {width: 70px; height: 12px; margin: -2px 0 0 -40px;}
 
-.fp-controlArrow.fp-prev {left: 2%; background-size: 50%;}
-.fp-controlArrow.fp-next {right: -4%; background-size: 50%;}
+.fp-controlArrow.fp-prev {left: 2%; background-size: 25%;}
+.fp-controlArrow.fp-next {right: -4%; background-size: 25%;}
 .fp_name {display: none;}
 #footer {width: 100%; height: 30px; line-height: 30px;}
 #footer_txt {font-size: 10px;}
