@@ -180,6 +180,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
     
 /*s0*/
 .section_home {
+    background-size:100% ; 
     width: 100%; height: 100%; margin: 20px;
     background-position: 60% 72%;
 }
