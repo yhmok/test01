@@ -180,8 +180,8 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
     background-position: 60% 72%;
 }
 .section_home .home_txt {position:relative; top: 100px;}
-.section_home h1 {font-size: 60px!important; bottom: 50px; right: 5%; letter-spacing: 5px;}
-.section_home h2 {font-size: 16px!important; bottom: 150px; right: 6%; letter-spacing: 5px;}
+.section_home h1 {font-size: 50px!important; bottom: 50px; right: 5%; letter-spacing: 5px;}
+.section_home h2 {font-size: 12px!important; bottom: 150px; right: 6%; letter-spacing: 5px;}
 #home_right {right: -58px; top: 200px; transform: rotate(90deg);}
 #home_right_txt {font-size: 10px;}
 #home_bottom_txt {left: 70px; bottom: -15px; font-size: 10px;}
