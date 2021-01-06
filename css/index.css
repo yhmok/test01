@@ -146,7 +146,8 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .slide .pf_txt_container .pf_subtxt {display: none;}
 .pf_gosite {margin-top: 10px; margin-bottom: 0px;}
 .slide .pf_txt_container p span {display: none;}
-
+#fp-nav {display:none!important;}
+    
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {bottom: 8%;}
 .fp-controlArrow.fp-prev {left: 1%; background-size: 40%;}
@@ -207,7 +208,6 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .pf_gosite {margin-top: 10px; margin-bottom: 0px;}
 .pf_gosite a {overflow: hidden; position: relative; display: inline-block; vertical-align: top; width: 100%; padding: 7px 0; font-size: 16px; border: 1px solid #aaa; transition: all 0.5s;}
 .slide ul .n, .slide ul .r{padding:10px 0!important;} 
-
     
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {text-align: center; bottom: 7%;}
@@ -215,6 +215,7 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 70px; margin: -2px 0 0 -40px;}
 .fp-slidesNav ul li a span {border-radius: 0; height: 12px; width: 70px; border: 0; margin: -2px 0 0 -40px;}
 .fp-slidesNav ul li:hover a span {width: 70px; height: 12px; margin: -2px 0 0 -40px;}
+#fp-nav {display:none!important;}
 
 .fp-controlArrow.fp-prev {left: 2%; background-size: 25%;}
 .fp-controlArrow.fp-next {right: -4%; background-size: 25%;}
