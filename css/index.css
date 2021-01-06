@@ -106,9 +106,10 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 #navTop {width: 100%; height: 60px;}
 #navTop_box {width: 90%; height: 60px;}
 #navTop_box #logo {width: 200px;}
-#navTop_box #logo > div {width: 60px; line-height: 60px;}
-#navTop_box #logo > div > img {width: 90%;}
 #navTop_box #logo > span {font-size: 12px; top: 32px; left: 5px;}
+    #navTop_box #logo > div {
+    line-height: 60px;
+}
 #navTop_box #topMenu li {padding-left: 25px; line-height: 60px;}
 #navTop_box #topMenu li a {font-size: 16px;}
 #navTop_box #topMenu li.active > a {border-bottom: 2px solid #1307f7; padding-bottom: 3px;}
@@ -162,7 +163,10 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 @media screen and (max-width:767px) {
 #navTop {width: 100%; height: 50px;}
 #navTop_box {width: 90%; height: 50px;}
-#navTop_box #logo > div {width: 50px; line-height: 50px;}
+/*#navTop_box #logo > div {width: 50px; line-height: 50px;}*/
+#navTop_box #logo > div {
+    line-height: 50px;
+}
 #navTop_box #logo > div > img {width: 90%;}
 #navTop_box #logo > span {display: none;}
 #navTop_box #topMenu li {padding-left: 10px; line-height: 50px;}
