@@ -159,8 +159,8 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 }
 
 
-/*~767*/
-@media screen and (max-width:767px) {
+/*500~767*/
+@media screen and (max-width:767px) and (min-width:500px) {
 #navTop {width: 100%; height: 50px;}
 #navTop_box {width: 90%; height: 50px;}
 /*#navTop_box #logo > div {width: 50px; line-height: 50px;}*/
@@ -227,4 +227,76 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .fp_name {display: none;}
 #footer {width: 100%; height: 30px; line-height: 30px;}
 #footer_txt {font-size: 10px;}
+}
+
+/*********************~499********************/
+@media screen and (max-width:499px){
+#navTop {width: 100%; height: 50px;}
+#navTop_box {width: 90%; height: 50px;}
+#navTop_box #logo > div {
+    line-height: 50px;
+}
+#navTop_box #logo > div > img {width: 90%;}
+#navTop_box #logo > span {display: none;}
+#navTop_box #topMenu li {padding-left: 10px; line-height: 50px;}
+#navTop_box #topMenu li a {font-size: 14px;}
+#navTop_box #topMenu li.active > a {border-bottom: 0; padding: 4px; background: #B3D0BC; color: #fff; border-radius: 5px;}
+
+.section_content {width: 90%;}
+.section_content h2 {position: relative; text-align: center; font-size: 18px; letter-spacing: 4px;}
+.section_content1 h2 {background: #B3D0BC; color: #fff; padding: 7px 0px; margin-top: 50px;}
+.section_content2 h2 {margin-top: 50px;}
+    
+/*s0*/
+.section_home {
+    background-size:100% ; 
+    width: 100%; height: 100%; margin: 20px;
+    background-position: 60% 72%;
+}
+.section_home .home_txt {position:relative; top: 50px;}
+.section_home h1 {font-size: 30px!important; bottom: 50px; right: 5%; letter-spacing: 5px;}
+.section_home h2 {font-size: 12px!important; bottom: 150px; right: 6%; letter-spacing: 5px;}
+#home_right {right: -58px; top: 200px; transform: rotate(90deg);}
+#home_right_txt {font-size: 10px;}
+#home_bottom_txt {left: 70px; bottom: -15px; font-size: 10px;}
+
+.home_right_line {height: 150px; right: -10px; top: 270px;}
+.home_left_line {height: 300px; left: -10px; bottom: -15px;}
+.home_bottom_line {width: 70px; left: -15px; bottom: -10px;}
+.home_middle_line1 {display: none;}
+.home_middle_line2 {display: none;}
+
+/*s3*/
+.slide h1 {font-size: 18px; margin-top: 0px!important;}
+.slide h2 {padding-bottom: 40px;}
+.slide p {margin-bottom: 100px!important; font-size: 12px;}
+.section_content3 {width: 84%;}
+.slide .pf_img_container {display: none;}
+.slide .pf_txt_container {width: 100%; padding-left: 10px; padding-right: 10px; margin-top: -30px;}
+.slide .pf_txt_container .pf_title {display: none;}
+.slide .pf_txt_container .mpf_img {display: block; margin-bottom: 12px; margin: 0 auto;}
+.slide .pf_txt_container .pf_name {width: 34%; float: left; padding: 5px 0px; font-size: 12px; line-height: 1.3;}
+.slide .pf_txt_container .pf_txt {width: 64%; padding: 6px 0px; font-weight: bold; font-size: 12px; line-height: 1.3;}
+.slide .pf_txt_container .pf_subtxt {display: none;}
+.slide .pf_txt_container p span {display: none;}
+.pf_gosite {margin-top: 10px; margin-bottom: 0px;}
+.pf_gosite a {overflow: hidden; position: relative; display: inline-block; vertical-align: top; width: 100%; padding: 7px 0; font-size: 16px; border: 1px solid #aaa; transition: all 0.5s;}
+.slide ul .n, .slide ul .r{padding:10px 0!important; font-size: 12px;} 
+    
+/*s3 slideNavigation*/
+.fp-slidesNav.fp-bottom {width: 100%; text-align: center; bottom: 7%;}
+.fp-slidesNav ul {width: 50%; margin:0 auto;}
+.fp-slidesNav ul:after {content:''; display:block; clear:both;}    
+.fp-slidesNav ul li {width: 25%; float: left; margin:0px 0px;}
+    
+.fp-slidesNav ul li a span {border-radius: 0; height: 12px; width: 45px; border: 0; margin:0 0 0 0;}
+.fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 45px; margin:0 0 0 0;}
+.fp-slidesNav ul li:hover a span {width: 45px; height: 12px; margin:0 0 0 0;}
+#fp-nav {display:none!important;}
+
+.fp-controlArrow.fp-prev {display:none;}
+.fp-controlArrow.fp-next {display:none;}
+.fp_name {display: none;}
+#footer {width: 100%; height: 30px; line-height: 30px;}
+#footer_txt {font-size: 10px;}    
 }
