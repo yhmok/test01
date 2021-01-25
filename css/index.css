@@ -61,15 +61,15 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .pf_gosite a:hover:before {width: 100%;}
 
 /*s3 slideNavigation*/
-.fp-slidesNav.fp-bottom {text-align: center; bottom: 130px;}
+.fp-slidesNav.fp-bottom {text-align: center; bottom: 70px;}
 .fp-slidesNav ul li {margin: 0px 60px;}
 .fp-slidesNav ul li a.active span,.fp-slidesNav ul li:hover a.active span {height: 12px; width: 120px; background: #1307f7; margin: -2px 0 0 -60px; border-radius: 0;}
 .fp-slidesNav ul li a span{border-radius: 0; height:12px; width: 120px; border: 0; background: #ddd; margin: -2px 0 0 -60px;}
 .fp-slidesNav ul li:hover a span {width: 120px; height: 12px; margin: -2px 0 0 -60px; cursor: pointer; background: #aaa;}
 #fp-nav ul {position: absolute; right: 50px;}
 
-.fp-controlArrow.fp-prev {left: 8%; background: url(../img/left-arrow.png) no-repeat; width: 76px; height: 76px; z-index: 1; border-radius: 50%;}
-.fp-controlArrow.fp-next {right: 8%; background: url(../img/right-arrow.png) no-repeat; width: 76px; height: 76px; z-index: 1;border-radius: 50%;}
+.fp-controlArrow.fp-prev {left: 8%; background: url(../img/left-arrow.png) no-repeat; width: 76px; height: 76px; z-index: 1; border-radius: 0;}
+.fp-controlArrow.fp-next {right: 8%; background: url(../img/right-arrow.png) no-repeat; width: 76px; height: 76px; z-index: 1;border-radius: 0;}
 
 .fp_name {width: 100%;}
 .fp_name_box {position: absolute; left: 50%; transform: translateX(-49%); bottom: 90px;}
@@ -151,8 +151,8 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
     
 /*s3 slideNavigation*/
 .fp-slidesNav.fp-bottom {bottom: 8%;}
-.fp-controlArrow.fp-prev {left: 1%; background-size: 40%;}
-.fp-controlArrow.fp-next {right: 0.3%; background-size: 40%;}
+.fp-controlArrow.fp-prev {left: 1%; background-size: 40%; border-radius: 0;}
+.fp-controlArrow.fp-next {right: 0.3%; background-size: 40%; border-radius: 0;}
 .fp_name {display: none;}
 #footer {position: absolute; left: 0; bottom: 0; background: #3d4740; width: 100%; height: 40px; line-height: 40px;}
 #footer_txt {font-size: 13px;}
@@ -222,8 +222,8 @@ body {font-family: 'Nanumsquare', 'Raleway'; cursor: default;}
 .fp-slidesNav ul li:hover a span {width: 70px; height: 12px; margin: -2px 0 0 -40px;}
 #fp-nav {display:none!important;}
 
-.fp-controlArrow.fp-prev {left: 2%; background-size: 25%;}
-.fp-controlArrow.fp-next {right: -4%; background-size: 25%;}
+.fp-controlArrow.fp-prev {left: 2%; background-size: 25%; border-radius: 0;}
+.fp-controlArrow.fp-next {right: -4%; background-size: 25%; border-radius: 0;}
 .fp_name {display: none;}
 #footer {width: 100%; height: 30px; line-height: 30px;}
 #footer_txt {font-size: 10px;}
